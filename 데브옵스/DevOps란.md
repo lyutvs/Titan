@@ -5,7 +5,7 @@ DevOps
 ## DevOps란
 
 ---
-**Development + Operation**
+**Development + Operation**ㅍ
 
 데브옵스 DevOps는 개발(development)과 운영(operation)을 결합해 탄생한 개발 방법론 입니다. 
 시스템 개발자와 운영을 담당하는 정보기술 전문가 사이의 소통, 협업, 통합 및 자동화를 강조하는 소프트웨어 개발 방법론이다.
@@ -29,15 +29,15 @@ DevOps 방식을 사용하여 속도가 느리고 수동으로 수행되던 프�
 
 작업 속도가 빨라지므로 유저를 위해 더 빠른 서비스 제공이 편리합니다.<br>
 좀더 효율적인 비즈니스 성과를 창출 할 수 있습니다.<br>
-예를 들어 마이크로 서비스와 지속적 전달을 사용하면 팀에서 서비스를 주도적으로 운영하여 업데이트를 좀 더 빠르게 릴리스할 수 있습니다.
+예를 들어 마이크로 서비스와 지속적 배포을 사용하면 팀에서 서비스를 주도적으로 운영하여 업데이트를 좀 더 빠르게 릴리스할 수 있습니다.
 
 ### 신속한 제공
 ![신속한 제공](https://d1.awsstatic.com/Developer%20Marketing/DevOps/DevOps-What-is_delivery.ab8e4f4580bd50ef2536ac6726d8c599c0a321da.png) <br>
-릴리즈 속도를 더 빠르게 할 수 있고, 지속적 배포 또는 지속적 통합을 이용하여 사용자의 요구 사항에 빠른 대처가 가능해 경쟁에서 우위를 정할수 있습니다. 
+릴리즈 속도를 더 빠르게 할 수 있고, 지속적 배포 또는 [지속적 통합](https://github.com/lyutvs/DevOps_Learn/blob/main/데브옵스/지속적통합.md) 을 이용하여 사용자의 요구 사항에 빠른 대처가 가능해 경쟁에서 우위를 정할수 있습니다. 
 
 ### 안정성
 ![안정성](https://d1.awsstatic.com/Developer%20Marketing/DevOps/DevOps-What-is_reliability.d515ffafa232e62e769d9f2bbf78f4160f3239ad.png) <br>
-지속적 통합 또는 지속적 배포를 사용하여 각 변경 사항이 제대로 작동하는지 테스트 합니다 또는 모니터링 과 로깅 방식으로 실시간으로 성능에 대한 정보를 볼 수 있습니다.
+[지속적 통합](https://github.com/lyutvs/DevOps_Learn/blob/main/데브옵스/지속적통합.md) 또는 지속적 배포를 사용하여 각 변경 사항이 제대로 작동하는지 테스트 합니다 또는 모니터링 과 로깅 방식으로 실시간으로 성능에 대한 정보를 볼 수 있습니다.
 
 
 ### 확장
