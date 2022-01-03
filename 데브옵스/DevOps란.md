@@ -33,11 +33,11 @@ DevOps 방식을 사용하여 속도가 느리고 수동으로 수행되던 프�
 
 ### 신속한 제공
 ![신속한 제공](https://d1.awsstatic.com/Developer%20Marketing/DevOps/DevOps-What-is_delivery.ab8e4f4580bd50ef2536ac6726d8c599c0a321da.png) <br>
-릴리즈 속도를 더 빠르게 할 수 있고, 지속적 배포 또는 [지속적 통합](https://github.com/lyutvs/DevOps_Learn/blob/main/데브옵스/지속적통합.md) 을 이용하여 사용자의 요구 사항에 빠른 대처가 가능해 경쟁에서 우위를 정할수 있습니다. 
+릴리즈 속도를 더 빠르게 할 수 있고, [지속적 배포](https://github.com/lyutvs/DevOps_Learn/blob/main/데브옵스/지속적%20배포.md) 또는 [지속적 통합](https://github.com/lyutvs/DevOps_Learn/blob/main/데브옵스/지속적통합.md) 을 이용하여 사용자의 요구 사항에 빠른 대처가 가능해 경쟁에서 우위를 정할수 있습니다. 
 
 ### 안정성
 ![안정성](https://d1.awsstatic.com/Developer%20Marketing/DevOps/DevOps-What-is_reliability.d515ffafa232e62e769d9f2bbf78f4160f3239ad.png) <br>
-[지속적 통합](https://github.com/lyutvs/DevOps_Learn/blob/main/데브옵스/지속적통합.md) 또는 지속적 배포를 사용하여 각 변경 사항이 제대로 작동하는지 테스트 합니다 또는 모니터링 과 로깅 방식으로 실시간으로 성능에 대한 정보를 볼 수 있습니다.
+[지속적 통합](https://github.com/lyutvs/DevOps_Learn/blob/main/데브옵스/지속적통합.md) 또는 [지속적 배포](https://github.com/lyutvs/DevOps_Learn/blob/main/데브옵스/지속적%20배포.md) 를 사용하여 각 변경 사항이 제대로 작동하는지 테스트 합니다 또는 모니터링 과 로깅 방식으로 실시간으로 성능에 대한 정보를 볼 수 있습니다.
 
 
 ### 확장
