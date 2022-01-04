@@ -54,3 +54,6 @@ MSA는 해당 서비스를 소유한 소규모 팀을 만들기에 적합 합니
 ### 복원성
 ![복원](https://d1.awsstatic.com/icons/benefit-icons/100x100_benefit_durable.54299a12d07fd6a95f634ea029ec94a6609f8eb6.png) <br>
 한 서비스가 실패 해도 다른 서비스에 영향을 주지 않아 실패 하더라도 실패에 대한 저항성이 증가 합니다, 모놀리식 아키텍처에서는 단일 구성 요소가 실패하는 경우 전체 애플리케이션이 실패하게 될 수 있습니다.
+
+## 보면 좋은 MSA 사례
+https://youtu.be/_DDkSF5TvEU
