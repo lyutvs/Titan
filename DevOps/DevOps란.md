@@ -29,7 +29,7 @@ DevOps 방식을 사용하여 속도가 느리고 수동으로 수행되던 프�
 
 작업 속도가 빨라지므로 유저를 위해 더 빠른 서비스 제공이 편리합니다.<br>
 좀더 효율적인 비즈니스 성과를 창출 할 수 있습니다.<br>
-예를 들어 마이크로 서비스와 지속적 배포을 사용하면 팀에서 서비스를 주도적으로 운영하여 업데이트를 좀 더 빠르게 릴리스할 수 있습니다.
+예를 들어 [마이크로 서비스](https://github.com/lyutvs/DevOps_Learn/blob/main/DevOps/MicroService.md) 와 지속적 배포을 사용하면 팀에서 서비스를 주도적으로 운영하여 업데이트를 좀 더 빠르게 릴리스할 수 있습니다.
 
 ### 신속한 제공
 ![신속한 제공](https://d1.awsstatic.com/Developer%20Marketing/DevOps/DevOps-What-is_delivery.ab8e4f4580bd50ef2536ac6726d8c599c0a321da.png) <br>
