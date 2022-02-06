@@ -5,12 +5,12 @@
 
 컨테이너라 하면 배에 실는 네모난 화물 소송용 박스를 생각할 수 있는데 각각의 컨테이너 안에는 물건 등을 넣을수 있고 규격화 되어 배, 트레일러등 으로 쉽게 운반 할수 있다.
 
-![컨테이너](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c550fa3a-a635-432c-b514-68524a366390/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220124%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220124T142023Z&X-Amz-Expires=86400&X-Amz-Signature=35f708679ae2bc35c5805924830bb5a7417a49a993d84d4c5639c3b7155283f7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject) <br>
+![컨테이너](https://miro.medium.com/max/1400/0*ujI404Gnomn1Wz5h.png) <br>
 컨테이너라 하면 배에 실는 네모난 화물 소송용 박스를 생각할 수 있는데 각각의 컨테이너 안에는 옷, 신발, 전자제품, 술, 과일등 다양한 화물을 넣을 수 있고 규격화되어 컨테이너선이나 트레일러등 다양한 운송수단으로 쉽게 옮길 수 있습니다.
 
 컨테이너는 격리되어 있고 그 안에서 가상 프로세스가 동작하는 방식 인데 기존에 있던 가상화 방식과는 다른 개념이 있다.
 
-![os 가상화](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/45a49c0e-8bc4-451d-8f11-d5773687ce68/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220124%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220124T142421Z&X-Amz-Expires=86400&X-Amz-Signature=9d2cccc2f4a182efb6a01fabb9d67150986486ab0f58f726893311dd419e25de&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject) <br>
+![os 가상화](https://www.redhat.com/cms/managed-files/what-is-a-container.png) <br>
 
 전가상화든 반가상화든 추가적인 OS를 설치하여 가상화하는 방법은 어쨋든 성능문제가 있었고 이를 개선하기 위해 **프로세스를 격리** 하는 방식이 등장합니다.
 
@@ -18,7 +18,7 @@
 
 새로운 컨테이너를 만든는데 걸리는 시간은 겨우 1-2초로 가상머신과 비교도 할 수 없이 빠릅니다.
 
-![도커 설명](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/06fea57b-0573-40ff-a2e1-337f7221acea/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220124%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220124T142509Z&X-Amz-Expires=86400&X-Amz-Signature=a91343d14af073b95d717de053bf1dc765081fe3d84e2b0013068934dac7272e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![도커 설명](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbLO1jV%2FbtqF4yJWiMb%2Fg0fPTY5UMZiiC07IZxrCx0%2Fimg.png)
 
 도커에서 가장 중요한 개념은 컨테이넌와 함께 이미지라는 개념입니다.
 
@@ -28,13 +28,13 @@ ubuntu이미지는 ubuntu를 실행하기 위한 모든 파일을 가지고 있�
 
 말그대로 이미지는 컨테이너를 실행하기 위한 모오오오오든 정보를 가지고 있기 때문에 더 이상 의존성 파일을 컴파일하고 이것저것 설치할 필요가 없습니다. 이제 새로운 서버가 추가되면 미리 만들어 놓은 이미지를 다운받고 컨테이너를 생성만 하면 됩니다. 한 서버에 여러개의 컨테이너를 실행할 수 있고, 수십, 수백, 수천대의 서버도 문제없습니다.
 
-![도커 허브](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4606cb53-e7c1-47bd-9fc9-45e498e29aa5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220124%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220124T142515Z&X-Amz-Expires=86400&X-Amz-Signature=0cf37e3ccc6291cd403571de0a874c6295a5b13f289f89fdf80b95114f55c67f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![도커 허브](https://subicura.com/assets/article_images/2017-01-19-docker-guide-for-beginners-1/docker-store.png)
 
 도커 이미지는 [Docker hub](https://hub.docker.com/)에 등록하거나 [Docker Registry](https://docs.docker.com/registry/) 저장소를 직접 만들어 관리할 수 있습니다. 현재 공개된 도커 이미지는 50만개가 넘고 Docker hub의 이미지 다운로드 수는 80억회에 이릅니다. 누구나 쉽게 이미지를 만들고 배포할 수 있습니다.
 
 ## 왜 이리 핫한가?
 
-![장점](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/41b426e4-88ad-4857-b4bc-72e185e4279b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220124%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220124T142518Z&X-Amz-Expires=86400&X-Amz-Signature=e7c710780e12931b82d01a934638fa4fdf546c399c93be1372df54ffe3c3df2c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![장점](https://subicura.com/assets/article_images/2017-01-19-docker-guide-for-beginners-1/image-layer.png)
 
 도커 이미지는 컨테이너를 실행하기 위한 모든 정보를 가지고 있기 때문에 보통 용량이 수백메가에 이릅니다. 처음 이미지를 다운받을 땐 크게 부담이 안되지만 기조 이미지 파일 하나 추가 했다고 수백메가를 다시 다운받는다면 매우 비효율적일 수 밖에 없다.
 
@@ -42,7 +42,7 @@ ubuntu이미지는 ubuntu를 실행하기 위한 모든 파일을 가지고 있�
 
 컨테이너를 생성할 때도 레이어 방식을 사용하는데 기존의 이미지 레이어 위에 읽기/쓰기read-write 레이어를 추가합니다. 이미지 레이어를 그대로 사용하면서 컨테이너가 실행중에 생성하는 파일이나 변경된 내용은 읽기/쓰기 레이어에 저장되므로 여러개의 컨테이너를 생성해도 최소한의 용량만 사용합니다.
 
-![장점](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6a38f2ee-04ef-4c39-b4be-db4ddfc27aab/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220124%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220124T142521Z&X-Amz-Expires=86400&X-Amz-Signature=2dac8ea831a7ace063385ee64092eb01b244ca233831e3777e1133e1ccc86a5d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![장점](https://subicura.com/assets/article_images/2017-01-19-docker-guide-for-beginners-1/image-url.png)
 
 이미지는 url 방식으로 관리하며 태그를 붙일 수 있습니다. ubuntu 14.04 이미지는 [docker.io/library/ubuntu:14.04](http://docker.io/library/ubuntu:14.04) 또는 [docker.io/library/ubuntu:trusty](http://docker.io/library/ubuntu:trusty) 이고 [docker.io/library는](http://docker.io/library%EB%8A%94) 생략가능하여 ubuntu:14.04 로 사용할 수 있습니다. 이러한 방식은 이해하기 쉽고 편리하게 사용할 수 있으며 태그 기능을 잘 이용하면 테스트나 롤백도 쉽게 할 수 있습니다.
 
