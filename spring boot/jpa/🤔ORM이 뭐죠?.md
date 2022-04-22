@@ -29,7 +29,7 @@
 
 ### JDBC
 
-![](../../images/img_2.png)
+![](../../images/jpa/img_2.png)
 JDBC는 DB에 접근할 수 있도록 자바에서 제공하는 API 이다.
 
 모든 JAVA Acess 기술의 근간이다. ⇒ 모든 Persistance Framework는 내부적으로 JDBC API를 사용한다.
