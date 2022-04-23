@@ -13,7 +13,7 @@ JPA의 엔티티 메니저가 활성화된 상태로 트랜잭션(@Transactional
 
 이 개념을 `더티 체킹` 이라 한다
 
-[Dirty Checking](JPA%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5%20%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A5%E1%86%BC%20df6ba3f002ff4828ac665a7e3ac55f4d/Dirty%20Checking%2059573595bfcd4602939dffe0b99bad1c.md)
+[Dirty Checking](https://github.com/lyutvs/Muttukttung-gamjachip/blob/main/spring%20boot/jpa/%ED%84%B0%ED%8B%B0%20%EC%B2%B4%ED%82%B9.md)
 
 > `Spring Data Jpa` 를 사용하면 기본으로 엔티티 메니저가 활성화 되어 있는 상태이다.
 >

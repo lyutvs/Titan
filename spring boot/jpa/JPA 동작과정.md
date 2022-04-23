@@ -33,4 +33,4 @@ JPA는
 
    쿼리를 JPA가 만들어 주기 때문에 Object와 RDB 간의 패러다임 불일치를 해결할수 있다.
 
-   [패러다임 불일치](JPA%20%E1%84%83%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A1%E1%86%A8%20%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A5%E1%86%BC%20894df77016a044d8a52f775329c3165c/%E1%84%91%E1%85%A2%E1%84%85%E1%85%A5%E1%84%83%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B7%20%E1%84%87%E1%85%AE%E1%86%AF%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%8E%E1%85%B5%20d8c7fd11a88d4476bc8b3bc3c2ab339f.md)
+   [패러다임 불일치](https://github.com/lyutvs/Muttukttung-gamjachip/blob/main/spring%20boot/jpa/%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84%EB%B6%88%EC%9D%BC%EC%B9%98.md)
