@@ -9,8 +9,7 @@ Pulumi SDK 뿐만 아니라 웹 대시보드와 같은 부가적인 기능이 �
 `Pulumi`가 요즘 뜨고 있는 이유는 다양한 언어를 가지고 laC 구현이 가능하다는 점 때문이다.
 
 `Terraform`과 같이 `Terraform` 전용 언어를 사용해지 않아도 되기 때문이다. 현재 `Pulumi`에서 지원하는 언어는 다음과 같다.
-
-![](../../images/Untitled.png)
+![](../../images/pulumi/pulumiCloudEngineeringPlatform.png)
 
 ### 지원하는 언어
 
@@ -30,8 +29,7 @@ laC에서 중요한 점은 클라우드 플랫폼에 대한 지원 여부와 확
 - Kubernetes
 
 K8s가 최근 플랫폼으로 급격히 성장중에 있어 Plumi가 K8s를 지원 한다는 점은 큰 장점으로 작용 할거라 본다.
-
-![](../../images/Untitled 1.png)
+![](../../images/pulumi/지원플랫폼.png)
 
 ## Build
 
@@ -55,9 +53,8 @@ K8s가 최근 플랫폼으로 급격히 성장중에 있어 Plumi가 K8s를 지�
 - 전 세계 제공 자동화
     - 서장에 따라 고급 자동화를 통해 제공 범위를 확장 가능
 
-![](../../images/Untitled 2.png)
-
-![](../../images/Untitled 3.png)
+![](../../images/pulumi/구현.png)
+![](../../images/pulumi/실서비스.png)
 
 ## Manage
 
@@ -68,19 +65,19 @@ K8s가 최근 플랫폼으로 급격히 성장중에 있어 Plumi가 K8s를 지�
     - 아이덴티티와 코들서의 정책 추가로 지속적인 구정 준수 보장
 - 누가, 무엇을, 언제 바꿨는지 확인할 수 있고, 팀 전체에 걸쳐 가시성 및 감사를 완벽하게 변경 가능
 
-![](../../images/Untitled 4.png)
+![](../../images/pulumi/manage.png)
 
 ### Multiple deployment Options
 
 Pulumi의 Automation Api 를 사용하여 CI/CD 프로세스를 통해 CLI 상호 작용적으로 인프라를 구축
 
-![](../../images/Untitled 5.png)
+![](../../images/pulumi/deployment.png)
 
 ### Deployments ad Code
 
 Automaiton Api를 사용하여 애플리케이션 코드에서 런타임에 배포를 실행.
 
-![](../../images/Untitled 6.png)
+![](../../images/pulumi/codes.png)
 
 ### Preview and test changes
 
