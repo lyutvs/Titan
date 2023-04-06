@@ -1,8 +1,10 @@
 # 코드형 인프라(Infrastructure as Code, IaC)
 
-![코드형 인프라](https://blog.kakaocdn.net/dn/cNdg7k/btq92xnpRVe/J91n2iHN85mKx4fKl1QUl1/img.png) <br>
+![코드형 인프라](https://blog.kakaocdn.net/dn/cNdg7k/btq92xnpRVe/J91n2iHN85mKx4fKl1QUl1/img.png)\
+
 
 ## Iac 란?
+
 수동 프로세스가 아닌 코드를 통해 인프라를 관리하고 프로비저닝하는 것을 말합니다.
 
 IaC를 사용하면 인프라 사양을 담은 구성 파일이 생성되므로 구성을 편집하고 배포하기가 더 쉬워집니다. 또한 IaC는 매번 동일한 환경을 프로비저닝하도록 보장합니다.
